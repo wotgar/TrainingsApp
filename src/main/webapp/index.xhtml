@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+</h:head>
+<h:body>
+
+    <p:link href="faces/neue-uebung.xhtml" value="Neue Übung"/>
+
+    <h1>Übungen</h1>
+
+    <p:dataTable var="uebung" value="#{uebungBean.uebungen}">
+        <p:column headerText="Bezeichnung">
+            #{uebung.bezeichnung}
+        </p:column>
+        <p:column headerText="Ablauf">
+            #{uebung.beschreibung}
+        </p:column>
+        <p:column headerText="Kategorie">
+            #{uebung.kategorie}
+        </p:column>
+        <p:column headerText="Muskelgruppe">
+            #{uebung.muskelgruppe}
+        </p:column>
+        <p:column headerText="Schwierigkeitsgrad">
+            #{uebung.schwierigkeitsgrad}
+        </p:column>
+        <p:column headerText="Verletzungsrisiko">
+            #{uebung.verletzungsrisiko}
+        </p:column>
+    </p:dataTable>
+
+</h:body>
+</html>
