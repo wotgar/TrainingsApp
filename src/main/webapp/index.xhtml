@@ -16,6 +16,7 @@
     <h1>Übungen</h1>
 
     <p:dataTable var="uebung" value="#{uebungBean.uebungen}">
+        <f:param name="uebungId" value="#{uebung.id}" />
         <p:column headerText="Bezeichnung">
             #{uebung.bezeichnung}
         </p:column>
@@ -33,6 +34,14 @@
         </p:column>
         <p:column headerText="Verletzungsrisiko">
             #{uebung.verletzungsrisiko}
+        </p:column>
+        <p:column headerText="Bild aus DB">
+            <h:graphicImage
+                    library="images" value="#{uebung.encodedString}" height="150px" width="150px" cache="false"/>
+        </p:column>
+        <p:column headerText="Bild aus Datei">
+            <h:graphicImage
+                    library="images" name="#{uebung.bildName}" height="150px" width="150px" cache="false"/>
         </p:column>
     </p:dataTable>
 
