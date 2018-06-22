@@ -13,9 +13,9 @@
     <ui:define name="content">
         <h:body>
             <h1>Übungen</h1>
-            <h:form>
+            <h:form id="daten">
                 <p:growl id="messages" showDetail="true"/>
-                <p:dataTable var="uebung" value="#{uebungBean.uebungenMg}">
+                <p:dataTable id="uebungen" var="uebung" value="#{uebungBean.uebungenMg}">
                     <f:param name="uebungId" value="#{uebung.id}"/>
                     <p:column headerText="Bezeichnung">
                         #{uebung.bezeichnung}
@@ -47,7 +47,8 @@
                                          action="#{uebungBean.deleteUebung(uebung.id)}"
                                          icon="ui-icon ui-icon-trash"
                                          value="Delete"
-                                         title="GDeleteButton">
+                                         title="GDeleteButton"
+                                         update=":daten:uebungen">
                             <p:confirm header="Übung löschen"
                                        message="Sind Sie sicher?"
                                        icon="ui-icon-alert"/>

@@ -42,3 +42,5 @@ DECLARE o_result VARCHAR2(15); BEGIN prc_reset_muskelgruppen(8, o_result); END;
 DECLARE o_result VARCHAR2(15); BEGIN prc_delete_uebung (8, o_result); END;
 DECLARE o_result VARCHAR2(15); BEGIN prc_reset_muskelgruppen(7, o_result); END;
 DECLARE o_result VARCHAR2(15); BEGIN prc_delete_uebung (7, o_result); END;
+DECLARE o_result VARCHAR2(15); BEGIN prc_reset_muskelgruppen(3, o_result); END;
+DECLARE o_result VARCHAR2(15); BEGIN prc_delete_uebung (3, o_result); END;

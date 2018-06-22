@@ -209,13 +209,17 @@ public class UebungBean {
         System.out.println("DELETE! " + id);
         new DatenbankVerbindung().deleteUebung(id);
         refreshLists();
-        // Folgender redirect ist nötig, damit auch mit Ajax die Seite neu geladen wird
+
+
+        // Folgender redirect wäre nötig, wenn Ajax die Seite neu geladen sollte.
+        // Allerdings lösen wir die Sache eleganter im Front End mit einem Update der Tabelle.
+        /*
         try {
             FacesContext.getCurrentInstance().getExternalContext().redirect("uebungen.xhtml");
             FacesContext.getCurrentInstance().responseComplete();
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        } */
         return "uebungen";
     }
 
