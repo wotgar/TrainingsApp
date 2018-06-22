@@ -10,6 +10,11 @@
 <h:head>
 </h:head>
 
+<f:metadata>
+    <f:event type="preRenderView"
+             listener="#{uebungBean.loadUebung(param['id'])}" />
+</f:metadata>
+
 <ui:composition template="template/template.xhtml">
     <ui:define name="content">
         <h:body>
@@ -20,12 +25,10 @@
                     <p:growl id="messages" showDetail="true"/>
                     <h:panelGrid columns="2" columnClasses="label, value">
                         <h:outputText value="Bezeichnung: *"/>
-                        <p:inputText value="#{uebungBean.bezeichnung}" label="Bezeichnung" required="true"
-                                     placeholder="Bezeichnung"/>
+                        <p:inputText value="#{uebungBean.bezeichnung}" label="Bezeichnung" required="true" />
 
                         <h:outputText value="Ablauf: "/>
-                        <p:inputTextarea value="#{uebungBean.beschreibung}" label="Ablauf" required="false"
-                                         placeholder="Ablauf"/>
+                        <p:inputTextarea value="#{uebungBean.beschreibung}" label="Ablauf" required="false" />
 
                         <h:outputText value="Bild: "/>
                         <p:fileUpload fileUploadListener="#{uebungBean.handleFileUpload}" mode="advanced"
@@ -53,7 +56,7 @@
                             <f:selectItems value="#{uebungBean.risiken}"/>
                         </p:selectOneMenu>
 
-                        <p:commandButton value="Hinzufügen" ajax="false" action="#{uebungBean.addUebung}"/>
+                        <p:commandButton value="Update" ajax="false" action="#{uebungBean.updateUebung}"/>
                     </h:panelGrid>
                 </p:panel>
             </h:form>

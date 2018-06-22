@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+</h:head>
+<ui:composition template="template/template.xhtml">
+    <ui:define name="content">
+        <h:body>
+            <h1>Übungen</h1>
+            <h:form>
+                <p:growl id="messages" showDetail="true"/>
+                <p:dataTable var="uebung" value="#{uebungBean.uebungenMg}">
+                    <f:param name="uebungId" value="#{uebung.id}"/>
+                    <p:column headerText="Bezeichnung">
+                        #{uebung.bezeichnung}
+                    </p:column>
+                    <p:column headerText="Ablauf">
+                        #{uebung.beschreibung}
+                    </p:column>
+                    <p:column headerText="Kategorie">
+                        #{uebung.kategorie}
+                    </p:column>
+                    <p:column headerText="Muskelgruppen">
+                        #{uebung.muskelgruppenString}
+                    </p:column>
+                    <p:column headerText="Schwierigkeitsgrad">
+                        #{uebung.schwierigkeitsgrad}
+                    </p:column>
+                    <p:column headerText="Verletzungsrisiko">
+                        #{uebung.verletzungsrisiko}
+                    </p:column>
+                    <p:column headerText="Bild">
+                        <h:graphicImage
+                                library="images" value="#{uebung.encodedString}" height="150px" width="150px"
+                                cache="false"/>
+                    </p:column>
+                    <p:column headerText="Aktionen">
+                        <p:button value="Edit" icon="ui-icon-pencil" type="button" href="update-uebung.xhtml?id=#{uebung.id}" />
+
+                        <p:commandButton id="delete"
+                                         action="#{uebungBean.deleteUebung(uebung.id)}"
+                                         icon="ui-icon ui-icon-trash"
+                                         value="Delete"
+                                         title="GDeleteButton">
+                            <p:confirm header="Übung löschen"
+                                       message="Sind Sie sicher?"
+                                       icon="ui-icon-alert"/>
+                        </p:commandButton>
+
+                        <p:confirmDialog global="true" showEffect="fade" hideEffect="explode">
+                            <p:commandButton title="GDelYesButton" value="Yes" styleClass="ui-confirmdialog-yes"/>
+                            <p:commandButton title="GDelNoButton" value="No" styleClass="ui-confirmdialog-no" />
+                        </p:confirmDialog>
+
+                    </p:column>
+                </p:dataTable>
+            </h:form>
+        </h:body>
+    </ui:define>
+</ui:composition>
+</html>

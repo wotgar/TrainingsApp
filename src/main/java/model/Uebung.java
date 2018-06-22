@@ -79,6 +79,18 @@ public class Uebung {
         this.image = image;
     }
 
+    public Uebung(int id, String bezeichnung, String beschreibung, String kategorie, String schwierigkeitsgrad,
+                  String verletzungsrisiko, List<String> muskelgruppen, byte[] image) {
+        this.id = id;
+        this.bezeichnung = bezeichnung;
+        this.beschreibung = beschreibung;
+        this.verletzungsrisiko = verletzungsrisiko;
+        this.schwierigkeitsgrad = schwierigkeitsgrad;
+        this.kategorie = kategorie;
+        this.muskelgruppen = muskelgruppen;
+        this.image = image;
+    }
+
     public int getId() {
         return id;
     }
@@ -115,6 +127,15 @@ public class Uebung {
         return bild;
     }
 
+    public String getMuskelgruppenString() {
+        String string = "";
+        for (String s : muskelgruppen) {
+            string += s + ", ";
+        }
+        string = string.substring(0, string.length()-2);
+        return string;
+    }
+
     public String getEncodedString() {
         String preset = "data:image/jpg;base64,";
         encodedString = Base64.getEncoder().encodeToString(image);
@@ -132,4 +153,6 @@ public class Uebung {
                 ", muskelgruppe='" + muskelgruppe + '\'' +
                 '}';
     }
+
+
 }

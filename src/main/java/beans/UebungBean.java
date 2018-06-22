@@ -8,6 +8,7 @@ import org.primefaces.model.UploadedFile;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import javax.faces.application.FacesMessage;
@@ -23,6 +24,7 @@ public class UebungBean {
     private File bild;
     private UploadedFile uploadedFile;
     private List<Uebung> uebungen = new ArrayList<>();
+    private List<Uebung> uebungenMg = new ArrayList<>();
     private List<String> muskelgruppen  = new ArrayList<>();
     private List<String> selectedMuskelgruppen  = new ArrayList<>();
     private List<String> kategorien  = new ArrayList<>();
@@ -34,6 +36,7 @@ public class UebungBean {
     }
 
     private void refreshLists() {
+        uebungenMg = new DatenbankVerbindung().getUebungenMuskelgruppen();
         uebungen = new DatenbankVerbindung().getUebungen();
         muskelgruppen = new DatenbankVerbindung().getStringList("MUSKELGRUPPE", "BEZEICHNUNG_MUSKELGRUPPE");
         kategorien = new DatenbankVerbindung().getStringList("UEBUNGSKATEGORIE", "BEZEICHNUNG_UEBUNGSKATEGORIE");
@@ -43,6 +46,10 @@ public class UebungBean {
 
     public List<Uebung> getUebungen() {
         return uebungen;
+    }
+
+    public List<Uebung> getUebungenMg() {
+        return uebungenMg;
     }
 
     public List<String> getMuskelgruppen() {
@@ -143,7 +150,8 @@ public class UebungBean {
         //for (String s : selectedMuskelgruppen) System.out.println(s);
         new DatenbankVerbindung().addUebung(u);
         refreshLists();
-        return "index";
+        emptyUebung();
+        return "uebungen";
     }
 
     //--------------------------------------------- Uploaded File Methods ----------------------------------------------
@@ -158,6 +166,57 @@ public class UebungBean {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    //--------------------------------------------- Update Entity Methods ----------------------------------------------
+
+    public void loadUebung(int id) {
+        for(Uebung u : uebungenMg) {
+            if (u.getId() == id) {
+                this.id = id;
+                this.bezeichnung = u.getBezeichnung();
+                this.beschreibung = u.getBeschreibung();
+                this.kategorie = u.getKategorie();
+                this.schwierigkeitsgrad = u.getSchwierigkeitsgrad();
+                this.verletzungsrisiko = u.getVerletzungsrisiko();
+                this.selectedMuskelgruppen = u.getMuskelgruppen();
+                break;
+            }
+        }
+    }
+
+    public String updateUebung() {
+        Uebung u = new Uebung(id, bezeichnung, beschreibung, kategorie, schwierigkeitsgrad, verletzungsrisiko,
+                selectedMuskelgruppen, bild != null ? bild : null);
+        new DatenbankVerbindung().updateUebung(u);
+        refreshLists();
+        emptyUebung();
+        return "uebungen";
+    }
+
+    //----------------------------------------------- Clear Text Fields ------------------------------------------------
+    public void emptyUebung() {
+        this.bezeichnung = "";
+        this.beschreibung = "";
+        this.kategorie = "";
+        this.schwierigkeitsgrad = "";
+        this.verletzungsrisiko = "";
+        this.selectedMuskelgruppen = new ArrayList<>();
+    }
+
+    //----------------------------------------------- Delete Methods ------------------------------------------------
+    public String deleteUebung(int id) {
+        System.out.println("DELETE! " + id);
+        new DatenbankVerbindung().deleteUebung(id);
+        refreshLists();
+        // Folgender redirect ist nötig, damit auch mit Ajax die Seite neu geladen wird
+        try {
+            FacesContext.getCurrentInstance().getExternalContext().redirect("uebungen.xhtml");
+            FacesContext.getCurrentInstance().responseComplete();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return "uebungen";
     }
 
 }
