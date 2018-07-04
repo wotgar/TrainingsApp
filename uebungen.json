@@ -1,0 +1,639 @@
+[
+  {
+    "id": 1,
+    "bezeichnung": "Kreuzheben",
+    "beschreibung": "Einmal runter in die Hocke, Rücken gerade halten, Gewicht aufheben und fließend wieder hoch.",
+    "verletzungsrisiko": "hoch",
+    "schwierigkeitsgrad": "schwer",
+    "kategorie": "Freigewicht",
+    "muskelgruppe": "Beine",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\KreuzhebenImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 1,
+    "bezeichnung": "Kreuzheben",
+    "beschreibung": "Einmal runter in die Hocke, Rücken gerade halten, Gewicht aufheben und fließend wieder hoch.",
+    "verletzungsrisiko": "hoch",
+    "schwierigkeitsgrad": "schwer",
+    "kategorie": "Freigewicht",
+    "muskelgruppe": "unterer Rücken",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\KreuzhebenImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 1,
+    "bezeichnung": "Kreuzheben",
+    "beschreibung": "Einmal runter in die Hocke, Rücken gerade halten, Gewicht aufheben und fließend wieder hoch.",
+    "verletzungsrisiko": "hoch",
+    "schwierigkeitsgrad": "schwer",
+    "kategorie": "Freigewicht",
+    "muskelgruppe": "Unterarm",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\KreuzhebenImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 2,
+    "bezeichnung": "Arm Curl",
+    "beschreibung": "Hantel in die Hand nehmen. Arm abwechselnd anziehen und ausstrecken",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Freigewicht",
+    "muskelgruppe": "Bizeps",
+    "bild": {
+      "path": "default.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 3,
+    "bezeichnung": "Bankdrücken",
+    "beschreibung": "Auf den Rücken legen, Langhantel packen. Langhantel langsam heben und senken.",
+    "verletzungsrisiko": "mittel",
+    "schwierigkeitsgrad": "mittel",
+    "kategorie": "Freigewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "default.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  },
+  {
+    "id": 4,
+    "bezeichnung": "Cable Fly",
+    "beschreibung": "Kabel an den Griffen packen. Leicht nach vorne Beugen. In einer fließenden Bewegung Arme ausgestreckt vor der Brust zusammenbringen und wieder weg vom Körper ausstrecken. Aber Hallo!",
+    "verletzungsrisiko": "gering",
+    "schwierigkeitsgrad": "einfach",
+    "kategorie": "Körpergewicht",
+    "muskelgruppe": "Brust",
+    "bild": {
+      "path": "src\\main\\webapp\\resources\\images\\Cable FlyImage.jpg"
+    },
+    "muskelgruppen": []
+  }
+]
