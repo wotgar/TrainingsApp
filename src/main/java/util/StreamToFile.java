@@ -1,4 +1,4 @@
-package database;
+package util;
 import org.apache.commons.io.IOUtils;
 import org.primefaces.model.UploadedFile;
 
@@ -10,6 +10,8 @@ public class StreamToFile {
 
     // Verzeichnis der im Front End benutzten Bilddateien
     private String folder = "src/main/webapp/resources/images/";
+    private String webFolder = "src/main/webapp/";
+    private String reactFolder = "src/main/react-table-test/full-react/src";
 
 //----------------------------------------------------------------------------------------------------------------------
 
@@ -90,6 +92,17 @@ public class StreamToFile {
         try {
             PrintWriter writer = new PrintWriter((new FileOutputStream(new File("java_inserts.sql"), true)));
             writer.print(sql + "\n");
+            writer.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    // Schreiben einer JSON-Datei, mit der REACT arbeiten kann
+    public void writeJson(String json) {
+        try {
+            PrintWriter writer =new PrintWriter((new FileOutputStream(new File(webFolder + "/uebungen.json"), false)));
+            writer.print(json);
             writer.close();
         } catch (Exception e) {
             e.printStackTrace();

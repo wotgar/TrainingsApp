@@ -127,6 +127,14 @@ public class Uebung {
         return bild;
     }
 
+    public byte[] getImage() {
+        return image;
+    }
+
+    public void setImage(byte[] image) {
+        this.image = image;
+    }
+
     public String getMuskelgruppenString() {
         String string = "";
         for (String s : muskelgruppen) {

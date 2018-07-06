@@ -1,5 +1,6 @@
 package database;
 
+import util.StreamToFile;
 import model.Uebung;
 
 import java.io.*;
@@ -462,6 +463,9 @@ public class DatenbankVerbindung {
         String sql = "DECLARE o_result VARCHAR2(15); BEGIN prc_reset_" + kennung + "(" + id + ", o_result); END;";
         streams.writeFile(sql);
     }
+
+    //  -------------------- Einstellungen für REACT TABLE speichern: --------------------------------------------------
+
 
 }
 

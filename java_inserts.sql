@@ -44,3 +44,9 @@ DECLARE o_result VARCHAR2(15); BEGIN prc_reset_muskelgruppen(7, o_result); END;
 DECLARE o_result VARCHAR2(15); BEGIN prc_delete_uebung (7, o_result); END;
 DECLARE o_result VARCHAR2(15); BEGIN prc_reset_muskelgruppen(3, o_result); END;
 DECLARE o_result VARCHAR2(15); BEGIN prc_delete_uebung (3, o_result); END;
+DECLARE o_result VARCHAR2(15); BEGIN prc_insert_uebung ('Joggen', 4, 1, 1, null, 'Wie laufen. Nur langsamer.', o_result); END;
+ -- IMAGE FILE LOCATION: src\main\webapp\resources\images\tempImage.jpg
+DECLARE o_result VARCHAR2(15); BEGIN prc_insert_MUSKELGR_UEBUNG(5, 7, o_result); END;
+DECLARE o_result VARCHAR2(15); BEGIN prc_insert_uebung ('Squats', 2, 3, 3, null, 'Arsch auf den Boden, Junge!', o_result); END;
+ -- IMAGE FILE LOCATION: src\main\webapp\resources\images\tempImage.jpg
+DECLARE o_result VARCHAR2(15); BEGIN prc_insert_MUSKELGR_UEBUNG(6, 7, o_result); END;

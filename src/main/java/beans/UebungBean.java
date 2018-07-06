@@ -1,14 +1,14 @@
 package beans;
 
+import com.google.gson.Gson;
 import database.DatenbankVerbindung;
-import database.StreamToFile;
+import util.StreamToFile;
 import model.Uebung;
 import org.primefaces.event.FileUploadEvent;
 import org.primefaces.model.UploadedFile;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import javax.faces.application.FacesMessage;
@@ -221,6 +221,16 @@ public class UebungBean {
             e.printStackTrace();
         } */
         return "uebungen";
+    }
+
+    //----------------------------------------------- JSON Methods -----------------------------------------------------
+    public void populateJson() {
+        List<Uebung> jsonList = new ArrayList<>(uebungen);
+        for(Uebung u : jsonList) { // Wir entfernen die Filestreams, weil das JSON sonst unleserlich wird.
+            u.setImage(null);
+        }
+        String json = new Gson().toJson(jsonList);
+        new StreamToFile().writeJson(json);
     }
 
 }
